@@ -3,6 +3,7 @@
 
 - run ```git clone git@github.com:takuya1003/docker-laravel.git```
 - run ```cd docker-laravel```
+- run ```docker compose up -d --build```
 - run ```docker compose exec app bash```
 - inside app container, run ```composer install```
 - inside app container, run ```cp .env.example .env```
